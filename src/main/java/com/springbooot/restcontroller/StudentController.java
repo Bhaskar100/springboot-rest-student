@@ -15,6 +15,7 @@ import com.springbooot.model.Student;
 import com.springbooot.service.StudentRepository;
 
 @RestController
+@CrossOrigin(maxAge=3600)
 @RequestMapping("/students")
 public class StudentController {
 
